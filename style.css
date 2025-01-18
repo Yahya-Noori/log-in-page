@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #080710;
+
+    /* the code to put an element in the middle of body (by SABZLEARN)*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+
+  .blue-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background: linear-gradient(90deg, #0277BD, #03A9F4);
+    margin: auto;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+label{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    margin: 40px 0 10px;
+}
+
+
+  .form{
+    width: 400px;
+    height: autos;
+    padding: 50px 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    margin: auto;
+    position: relative;
+    z-index: 2000;
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  [type="text"]{
+    background-color: rgba(2555, 255, 255, 0.07);
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding-block-end: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+[type="text"]::placeholder-shown{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+  .orange-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #EF6C00, #FF9800);
+    margin: auto;
+    
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+
+  [type="submit"] {
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 50px;
+    background-color: #fff;
+    color: #080710;
+    outline: none;
+    border: none;
+    font-weight: 450;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
